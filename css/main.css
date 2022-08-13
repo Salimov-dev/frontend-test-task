@@ -1,0 +1,42 @@
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 30px;
+
+}
+
+.block {
+    font-size: 26px;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 1%;
+}
+
+.block-1 {
+    width: 66%;
+    color:#FFA300;
+    border: 1px solid #FFA300;
+    float: left;
+}
+.block-2 {
+    width: 30%;
+    color: #9A9A9A;
+    border: 1px solid #9A9A9A;
+    float: right;
+}
+.block-3 {
+    width: 66%;
+    color: #000000;
+    border: 1px solid #000000;
+    float: left;
+}
+
+@media (max-width: 950px ) {
+    .block-1, .block-2, .block-3 {
+        width: 95%;
+        margin: 3%;
+        float: none; 
+    }
+    .block-1, .block-3 {
+    }
+}
